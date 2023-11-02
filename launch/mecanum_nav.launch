@@ -31,7 +31,7 @@
 
 
      <!-- AMCL -->
-    <include file="$(find robot_odom)/robot_odom/launch/amcl.launch"/>
+    <include file="$(find robot_odom)/launch/amcl.launch"/>
 
     <!-- move_base -->
     <include file="$(find robot_odom)/launch/move_base.launch">
